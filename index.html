@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I am verifying you...</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+        <div class="centered-content">
+        <h3>Are you a human?</h3>
+        <p>If you are a human prove it</p>
+        <button onclick="window.location.href='homepage.html'">I am a human</button>
+        <h6>Click ▲ you fucking retard</h6>
+    </div>
+    
+    
+    
+    <!--  -->
+    
+        <script>
+        // Array of background GIFs
+        const backgrounds = ['background1.gif', 'background3.gif','background4.gif'];
+
+        // Function to select a random background
+        function getRandomBackground() {
+            const randomIndex = Math.floor(Math.random() * backgrounds.length);
+            return backgrounds[randomIndex];
+        }
+
+        // Apply the random background
+        document.body.style.background = `url('${getRandomBackground()}') no-repeat center center fixed`;
+        document.body.style.backgroundSize = 'cover';
+        
+        // Redirect to non.html if the current page is not found
+        setTimeout(() => {
+            if (!document.querySelector('.centered-content')) {
+                window.location.href = 'non.html';
+            }
+        }, 100);
+    </script>
+    
+    <!--  -->
+    
+    
+    
+    
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+
+
+/* Style the body */
+body {
+    width: auto;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    font-family: "Rajdhani", sans-serif;
+}
+
+.centered-content {
+    text-align: center;
+}
+
+.centered-content h6 {
+font-weight: normal;
+}
+
+.centered-content p {
+font-weight: normal;
+}
+
+/* Style the button */
+button {
+    margin-top: 20px;
+    font-family: "Rajdhani", sans-serif;
+    padding: 10px 20px;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+button:hover {
+    background: #fff;
+    color: #333;
+}

@@ -1,0 +1,39 @@
+body {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: "Rajdhani", sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    color: #000;
+    text-align: left; /* Text alignment */
+    border-radius: 10px;
+}
+
+.top-column,
+.bottom-column {
+    background-color: #E6E6FA; /* Light Purple */
+    font-size: 10px; /* Smaller font size */
+    padding: 10px;
+}
+
+.middle-column {
+    background-color: #9370DB; /* Medium Purple */
+    font-size: 12px; /* Default or larger font size */
+    padding: 20px;
+    
+}

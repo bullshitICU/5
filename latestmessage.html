@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LT</title>
+    <link rel="stylesheet" href="lt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="centered-content">
+        <div class="container">
+        <div class="column top-column">DATE: 16/06/2024 | 02:28</div>
+        <div class="column middle-column">Eid Adha Mubarak,<br>I wish Happiness to everyone.</div>
+        <div class="column bottom-column">By Aïmene</div>
+    </div>
+   
+   <!--  -->
+   
+   <div class="container">
+        <div class="column top-column">DATE: 15/06/2024 | 23:28</div>
+        <div class="column middle-column">So,<br>First Post.</div>
+        <div class="column bottom-column">By Aïmene</div>
+    </div>    
+ </div>   
+    <!--  -->
+    
+    
+    <script>
+        // Array of background GIFs
+        const backgrounds = ['background.gif', 'background.gif'];
+
+        // Function to select a random background
+        function getRandomBackground() {
+            const randomIndex = Math.floor(Math.random() * backgrounds.length);
+            return backgrounds[randomIndex];
+        }
+
+        // Apply the random background
+        document.body.style.background = `url('${getRandomBackground()}') no-repeat center center fixed`;
+        document.body.style.backgroundSize = 'cover';
+    </script>
+    
+    <!--  -->
+    
+</body>
+</html>
